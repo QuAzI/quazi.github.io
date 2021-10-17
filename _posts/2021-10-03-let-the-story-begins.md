@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Выходные с Let's encrypt"
 date:   2021-10-03 13:35:00 +3
 categories: jekyll update

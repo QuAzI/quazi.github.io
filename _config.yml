@@ -14,24 +14,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ruslan Yakauley blog
-email: ruslan@yakauleu.pro
+email: ruslan.yakauleu(at)gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Some notes, hints and cheatsheets which came in handy in my surrounding
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://yakauleu.pro" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: QuAzI
+url: "https://quazi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  QuAzI
+#twitter_username: QuAzI_NODE
 
 # Build settings
-markdown: kramdown
+#markdown: kramdown
 
-# theme: minima
-theme: jekyll-theme-cayman
+theme: minima
+# theme: jekyll-theme-cayman
+
+# remote_theme: jekyll-theme-cayman
+# remote_theme: pages-themes/cayman@v0.2.0
+# remote_theme: pages-themes/cayman
 
 plugins:
   - jekyll-feed
+#  - jekyll-remote-theme
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -44,3 +48,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
