@@ -7,7 +7,11 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -17,35 +21,32 @@ title: Ruslan Yakauley's notes
 email: ruslan.yakauleu(at)gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Some notes, hints and cheatsheets which came in handy in my surrounding
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://quazi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  QuAzI
 #twitter_username: QuAzI_NODE
 
 # Build settings
-#markdown: kramdown
-
 theme: minima
-# theme: jekyll-theme-cayman
-
-# remote_theme: jekyll-theme-cayman
-# remote_theme: pages-themes/cayman@v0.2.0
-# remote_theme: pages-themes/cayman
-
 plugins:
   - jekyll-feed
-#  - jekyll-remote-theme
-
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
 # exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
-#   - node_modules
+#   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-

@@ -2,6 +2,7 @@
 title:  "Выходные с Let's encrypt"
 date:   2021-10-03 13:35:00 +3
 categories: jekyll update
+layout: post
 ---
 
 30 сентября многих "обрадовал" Let's Encrypt своим устаревшим сертификатом.

@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: /about/
+layout: page
 ---
 
 Сам я не поэт, не надо напрягаться
