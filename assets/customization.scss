@@ -1,0 +1,9 @@
+$base-font-size: 18px !default;
+
+$base-font-family: "PT Serif", serif;
+
+.page-content {
+  .wrapper {
+    max-width: calc(900px - (30px * 2));
+  }
+}
