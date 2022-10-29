@@ -1,2 +1,119 @@
 // Do not add any CSS to this file in the theme sources.
 // This file can be overridden to add project-specific CSS.
+
+.app-header {
+  left: unset;
+  right: 0;
+}
+
+.post,
+.posts-list-item {
+  font-size: 2em;
+}
+
+.post-meta {
+  font-size: 0.4em;
+  text-align: end;
+}
+
+pre {
+  font-size: 1.6rem;
+
+  code {
+    font-size: 1.2em;
+  }
+}
+
+// @media only screen and (max-width: 600px) {
+@media(max-width:1280px) {
+  html {
+    line-height: 1.3;
+    font-size: 1em;
+  }
+  
+  .app-header {
+    position: relative;
+    right: unset;
+    width: 100%;
+    min-height: 14rem;
+    top: 0px;
+
+    padding: 1.2em;
+
+    .app-header-avatar {
+      width: 5rem;
+      height: 5rem;
+      border: .1rem;
+    }
+    .app-header-title {
+      font-size: 1.2em;
+    }
+    .app-header-social {
+      font-size: 1.4em;
+    }
+   }
+
+  .app-container {
+    max-width: 100%;
+    margin-left: 0rem;
+    padding: 0.7rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  pre {
+    font-size: 1.2rem;
+    code {
+      font-size: 1.0em;
+    }
+  }
+
+  .post,
+  .posts-list-item {
+    font-size: 1.2em;
+  }
+}
+
+// styles for Print and e-books (include 4096 colors)
+@media print, monochrome, (max-width: 640px) and (hover: none) and (pointer: none) {
+  body { 
+    color: #000000;
+    background: #ffffff;
+  }
+
+  .app-header {
+    background-color: #dadada;
+  }
+
+  .post-title, h1, h2, h3, h4 {
+    color: #000000;
+  }
+
+  a {
+    color: #1c4c31;
+  }
+
+  pre {
+    color: #1c4c31 !important;
+    background-color: unset !important;
+  }
+
+  code {
+    background-color: unset;
+    color: #1c4c31 !important;
+    white-space: pre-wrap;
+
+    span {
+      color: #1c4c31 !important;
+    }
+  }
+}
+
+@media print {
+  .app-header {
+    display: none;
+  }
+  .app-container {
+    margin-top: 0vh;
+  }
+}
