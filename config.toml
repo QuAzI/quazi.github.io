@@ -1,0 +1,29 @@
+baseURL = 'https://quazi.github.io/'
+title = "Ruslan Yakauleu's blog"
+
+languageCode = 'ru-ru'
+defaultContentLanguage = "ru"
+defaultContentLanguageInSubdir = true
+
+theme = 'm10c'
+
+# publishdir = '_site'
+
+[params]
+  author = 'Ruslan Yakauleu'
+  description = '.NET Developer, full-stack. Interested in *nix, maker culture, photo, nature'
+  avatar = 'https://avatars.githubusercontent.com/u/1897605'
+
+[[params.social]]
+  icon = "github"
+  name = "My Github"
+  url = "https://github.com/QuAzI"
+[[params.social]]
+  icon = "linkedin"
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/ruslan-yakauleu"
+[[params.social]]
+  icon = "telegram"
+  name = "telegram"
+  url = "https://t.me/QuAzI_NODE"
+
