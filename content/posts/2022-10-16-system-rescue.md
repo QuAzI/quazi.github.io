@@ -1,8 +1,10 @@
 ---
-title: Инструменты восстановления системы
+title: SystemRescueCD как IP KVM
+description: LiveUSB в SystemRescueCD
 date: 2022-10-16 23:30:00 +03:00
-categories: boot rescue usb
+categories: tools
 layout: post
+tags: ['SystemRescueCD', 'LiveUSB', 'IP KVM', 'Ventoy']
 ---
 
 Если друг поломался вдруг, а топтать до него сотни километров, то современные инструменты позволяют починить удалённо и незагружающуюся систему.
