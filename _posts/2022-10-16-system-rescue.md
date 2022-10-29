@@ -1,6 +1,6 @@
 ---
 title: Инструменты восстановления системы
-date: 2022-10-16 23:30
+date: 2022-10-16 23:30:00 +03:00
 categories: boot rescue usb
 layout: post
 ---

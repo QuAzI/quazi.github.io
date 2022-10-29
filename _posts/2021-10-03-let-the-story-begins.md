@@ -1,6 +1,6 @@
 ---
-title:  "Выходные с Let's encrypt"
-date:   2021-10-03 13:35:00 +3
+title: "Выходные с Let's encrypt"
+date: 2021-10-03 13:35:00 +03:00
 categories: hosting
 layout: post
 ---
