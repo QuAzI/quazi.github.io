@@ -94,29 +94,51 @@ pre {
   }
 
   .app-header {
-    background-color: #dadada;
-  }
+    background-color: inherit;
+    line-height: 0.8em;
+    padding: 0.5em;
+    min-height: 7rem;
 
-  .post-title, h1, h2, h3, h4 {
-    color: #000000;
+    .app-header-avatar {
+      display: none;
+    }
+
+    .app-header-title {
+      color: unset;
+    }
   }
 
   a {
     color: #1c4c31;
   }
 
-  pre {
-    color: #1c4c31 !important;
-    background-color: unset !important;
+  .post-title, h1, h2, h3, h4 {
+    color: #000000;
   }
 
-  code {
-    background-color: unset;
-    color: #1c4c31 !important;
-    white-space: pre-wrap;
+  .app-container {
+    padding: 0 1.5rem;
 
-    span {
+    pre {
       color: #1c4c31 !important;
+      background-color: unset !important;
+      font-size: 1.2rem;
+    }
+
+    code {
+      background-color: unset;
+      color: #1c4c31 !important;
+      white-space: pre-wrap;
+      font-size: 1.0em;
+
+      span {
+        color: #1c4c31 !important;
+      }
+    }
+
+    .post,
+    .posts-list-item {
+      font-size: 1.2em;
     }
   }
 }
