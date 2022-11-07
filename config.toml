@@ -9,6 +9,8 @@ theme = 'm10c'
 
 # publishdir = '_site'
 
+enableRobotsTXT = false
+
 [params]
   author = 'Ruslan Yakauleu'
   description = '.NET Developer, full-stack. Interested in *nix, maker culture, photo, nature'
