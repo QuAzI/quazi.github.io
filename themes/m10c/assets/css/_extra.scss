@@ -87,7 +87,7 @@ pre {
 }
 
 // styles for Print and e-books (include 4096 colors)
-@media print, monochrome, (max-width: 640px) and (hover: none) and (pointer: none) {
+@media print, monochrome, (hover: none) and (any-pointer: none) {
   body { 
     color: #000000;
     background: #ffffff;
