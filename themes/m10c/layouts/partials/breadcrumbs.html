@@ -1,4 +1,5 @@
-<ul class="breadcrumb">
+<nav aria-label="Breadcrumb" class="breadcrumb">
+<ul>
     <li><a href="/">Home</a></li>
     {{- $.Scratch.Set "url" "" -}}
     {{- range (split .RelPermalink "/") -}}
@@ -22,3 +23,4 @@
         {{- end -}}
     {{- end -}}
 </ul>
+</nav>
