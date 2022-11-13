@@ -207,7 +207,14 @@ pre {
   .app-header {
     display: none;
   }
+
   .app-container {
     margin-top: 0vh;
+
+    .breadcrumb {
+      display: none;
+    }
   }
+
+  
 }
