@@ -4,6 +4,10 @@
 .app-header {
   left: unset;
   right: 0;
+
+  .app-header-title {
+    font-size: 1.6em;
+  }
 }
 
 .post-header {
