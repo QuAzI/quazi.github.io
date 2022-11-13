@@ -3,7 +3,7 @@
 <ul class="pagination">
   {{ with .Prev }}
   <li class="page-item">
-    <a class="page-link" href="{{ .URL }}">
+    <a rel="prev" class="page-link" href="{{ .URL }}">
       {{ partial "icon.html" (dict "ctx" $ "name" "arrow-left") }}
     </a>
   </li>
@@ -17,7 +17,7 @@
   {{ end }}
   {{ with .Next }}
   <li class="page-item">
-    <a class="page-link" href="{{ .URL }}">
+    <a rel="next" class="page-link" href="{{ .URL }}">
       {{ partial "icon.html" (dict "ctx" $ "name" "arrow-right") }}
     </a>
   </li>
