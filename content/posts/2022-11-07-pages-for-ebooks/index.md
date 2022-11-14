@@ -16,7 +16,7 @@ tags: ['e-books', 'readers']
 Посмотрев по фичам сначала не нашёл ничего интересного, но потом сравнил вывод с телефоном и ПК. Выяснилось что книга не умеет "hover" (что логично), и наглухо не умеет точное позиционирование при клике (pointer). Получил вот такой комплексный медиа-запрос.
 
 ```css
-@media print, monochrome, (hover: none) and (any-pointer: none) {
+@media print, monochrome, amzn-mobi, amzn-kf8, (hover: none) and (any-pointer: none) {
 }
 ```
 

@@ -1,6 +1,8 @@
 // Do not add any CSS to this file in the theme sources.
 // This file can be overridden to add project-specific CSS.
 
+@page { margin: 10px; }
+
 .app-header {
   left: unset;
   right: 0;
@@ -143,7 +145,7 @@ pre {
 }
 
 // styles for Print and e-books (include 4096 colors)
-@media print, monochrome, (hover: none) and (any-pointer: none) {
+@media print, monochrome, amzn-mobi, amzn-kf8, (hover: none) and (any-pointer: none) {
   body { 
     color: #000000;
     background: #ffffff;
