@@ -3,12 +3,13 @@
 }
 
 html {
-  line-height: 1.6;
+  line-height: 1.4;
+  letter-spacing: 1px;
 }
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   background: $dark-color;
   color: $light-color;
 }
