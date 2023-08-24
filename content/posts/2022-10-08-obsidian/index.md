@@ -1,5 +1,5 @@
 ---
-title: Obsidian for blog
+title: Obsidian for blog (Jekyll)
 description: Obsidian как редактор Knowledge Base или блога
 date: 2022-10-08 23:32:00 +03:00
 categories: tools
