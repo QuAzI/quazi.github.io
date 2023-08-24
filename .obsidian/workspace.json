@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "47f2fcb9a6f04317",
+    "type": "split",
+    "children": [
+      {
+        "id": "7691cbb06c52e3f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8028b856a7493b3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/2023-08-24-obsidian-to-hugo/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3597510c10cb8d1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "904162f71b6c438f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37bea960f6ccee2f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "896e69cd433c9f25",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3bbe29676cbc3f62",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "8133860fc101d62f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "com.maxymillion.zen",
+              "state": {},
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "27c633930f9ef203",
+    "type": "split",
+    "children": [
+      {
+        "id": "2047f4af8098f463",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "840456365858abce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/posts/2023-08-24-obsidian-to-hugo/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dc810ad20a8634e1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/posts/2023-08-24-obsidian-to-hugo/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "56b8e8f09322acbd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cd667e2ccbbca8d1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/posts/2023-08-24-obsidian-to-hugo/index.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8028b856a7493b3b",
+  "lastOpenFiles": [
+    "content/posts/2022-11-07-pages-for-ebooks/index.md",
+    "content/posts/2023-08-24-obsidian-to-hugo/index.md",
+    "templates/post-template.md",
+    "content/posts/2022-10-08-obsidian/index.md",
+    "content/posts/index.md",
+    "content/posts/_index.md",
+    "templates",
+    "content/posts/2023-08-24-obsidian-to-hugo",
+    "content/_index.md"
+  ]
+}
