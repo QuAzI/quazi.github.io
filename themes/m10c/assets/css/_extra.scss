@@ -58,7 +58,6 @@ pre {
     list-style: none;
     margin: 0;
     padding: 0;
-    //font-size: 0.6em;
 
     li:not(:last-child)::after {
       display: inline-block;
@@ -67,6 +66,11 @@ pre {
     }
   }
 }
+
+// pc, tablet or phone with good display
+// @media screen and (color) and (not (any-pointer: none)) {
+//   .pc { display: inline; } 
+// }
 
 @media (max-width: 1680px) {
   .app-container {
@@ -112,10 +116,6 @@ pre {
     max-width: 100%;
     margin: 0 0;
     padding: 0.7rem 1.5rem;
-
-    // .breadcrumb {
-    //   display: none;
-    // }
   }
 
    .post-header {
@@ -144,7 +144,6 @@ pre {
   }
 }
 
-// styles for Print and e-books (include 4096 colors)
 @media print, monochrome, amzn-mobi, amzn-kf8, (hover: none) and (any-pointer: none) {
   body { 
     color: #000000;
@@ -176,10 +175,6 @@ pre {
 
   .app-container {
     padding: 0 1.5rem;
-
-    // .breadcrumb {
-    //   display: none;
-    // }
 
     .post,
     .posts-list-item {
