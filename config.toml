@@ -3,7 +3,7 @@ title = "Ruslan Yakauleu's blog"
 
 languageCode = 'ru-ru'
 defaultContentLanguage = "ru"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 theme = 'm10c'
 
