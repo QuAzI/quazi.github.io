@@ -1,6 +1,13 @@
 {{ define "main" }}
   <article>
     <h1>{{ .Title }}</h1>
+    <div style="text-align: right;">
+      {{ with .OutputFormats.Get "rss" }}
+        <a class="rss" type="{{ .MediaType.Type }}" href="{{ .Permalink }}">
+          {{ partial "icon.html" (dict "ctx" $ "name" "rss" "title" "RSS") }}
+        </a>
+      {{ end }}
+    </div>
     <ul class="posts-list">
       {{ range where .Paginator.Pages "Type" "!=" "page" }}
         <li class="posts-list-item">

@@ -15,6 +15,7 @@ enableRobotsTXT = false
   author = 'Ruslan Yakauleu'
   description = 'Full-Stack .NET/C# Developer. Interested in *nix, maker culture, photo, nature'
   avatar = 'https://avatars.githubusercontent.com/u/1897605'
+  ShowFullTextinRSS = true
 
 [[params.social]]
   icon = "github"
