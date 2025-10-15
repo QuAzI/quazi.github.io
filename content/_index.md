@@ -1,9 +1,11 @@
 ---
-title: "Блог, kb, whatever на долгую память"
+title: Ай, не-ней, не-ней, мой маленький блог...
 date: 2022-11-12 21:35:31 +03:00
 IsHome: true
+description: Blog | Full-Stack .NET Developer | Backend .NET/C# Developer | DevOps | System Administrator
 ---
+Я Full-Stack .NET-разработчик с некоторым (широким и странным) опытом администрирования и автоматизации в SOHO-сегменте.
 
-[Заметки](posts/) [[RSS]](https://quazi.github.io/posts/index.xml)
+Это мой небольшой блог который в котором я публикую для себя и для друзей какие-то вещи которые жалко прятать в приватные репозитории
 
-[О сайте](about/)
+[Мои записки, заметки, черновики на долгую память](posts/)
